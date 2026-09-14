@@ -28,7 +28,37 @@ main {
 }
 
 .content {
-  padding: 34px;
-  max-width: 1500px;
-  margin: 0 auto;
+    padding: 34px;
+    max-width: 1500px;
+    margin: 0 auto;
+
+  &__header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    }
+}
+
+.page__label {
+    text-transform: uppercase;
+    letter-spacing: .13em;
+    color: variables.$terracotta-dark;
+    font-size: 12px;
+    font-weight: 800;
+    margin-bottom: 6px;
+}
+
+.page-title {
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: -.035em;
+    margin: 0;
+}
+
+.page-subtitle {
+    color: variables.$muted;
+    margin-top: 8px;
 }

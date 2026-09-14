@@ -17,4 +17,11 @@
     &__title {
         font-weight: 700;
     }
+
+    &__user {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        font-size: 0.875rem;
+    }
 }

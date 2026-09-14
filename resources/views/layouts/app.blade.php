@@ -20,7 +20,17 @@
 <body>
     <div class="page-grid">
         <x-nav.sidebar />
-        <x-nav.topbar />
+        <main class="main-content">
+                <x-nav.topbar />
+                <x-content 
+                label="Dashboard"
+                title="Hello, <user>."
+                subtitle="An overview of registered companies and employees.">
+                </x-content>
+            </div>
+            <div></div>
+        </section>
+    </main>
     </div>
 </body>
 </html>
