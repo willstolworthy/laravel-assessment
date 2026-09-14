@@ -1,1 +1,12 @@
 @use '../variables';
+
+.user__logo {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background: variables.$terracotta;
+    color: variables.$white;
+    font-weight: 800;
+}

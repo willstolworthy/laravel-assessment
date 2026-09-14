@@ -18,6 +18,9 @@
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 </head>
 <body>
-    <x-nav.sidebar />
+    <div class="page-grid">
+        <x-nav.sidebar />
+        <x-nav.topbar />
+    </div>
 </body>
 </html>

@@ -1,0 +1,20 @@
+@use '../variables';
+
+.topbar {
+    height: 76px;
+    background: variables.$eyeball;
+    border-bottom: 1px solid variables.$line;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 34px;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    backdrop-filter: blur(10px);
+    font-size: 0.875rem;
+
+    &__title {
+        font-weight: 700;
+    }
+}
