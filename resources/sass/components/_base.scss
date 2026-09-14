@@ -1,0 +1,23 @@
+@use '../variables';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: variables.$sand-50;
+    color: variables.$ink;
+    font-family: "Manrope", sans-serif;
+    font-size: 15px;
+}
+
+a {
+    color: inherit;
+}
+
+.app-grid {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 250px minmax(0, 1fr);
+}

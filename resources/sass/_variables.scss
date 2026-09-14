@@ -2,6 +2,40 @@
 $body-bg: #f8fafc;
 
 // Typography
-$font-family-sans-serif: 'Nunito', sans-serif;
+$font-family-sans-serif: 'Manrope', sans-serif;
 $font-size-base: 0.9rem;
 $line-height-base: 1.6;
+
+// Colours named with colornamer.robertcooper.me
+// Colours: neutrals
+$sand-50: #f7f3ea;
+$sand-100: #eee6d6;
+$sand-200: #ded2be;
+$paper: #fffcf6;
+$brown: #6f5748;
+$ink: #2e312c;
+$muted: #74776e;
+$line: #ddd4c6;
+$risotto: #f8f4ea;
+
+// Colours: basic
+$white: #fff;
+$white-fade: rgba(255,255,255,.78);
+$black: #000;
+$black-fade: rgba(255,255,255,.11);
+
+// Colours: brand
+$olive: #69745b;
+$olive-dark: #4f5a44;
+$moss: #879075;
+$terracotta: #b96f54;
+$terracotta-dark: #995a43;
+
+// Colours: feedback
+$danger: #a75348;
+$success-soft: #dde4d7;
+
+// Shape
+$radius-md: 12px;
+$radius-lg: 18px;
+$shadow-soft: 0 12px 35px rgba(72, 61, 50, 0.08);
