@@ -10,3 +10,58 @@
     color: variables.$white;
     font-weight: 800;
 }
+
+.button-primary {
+    background: variables.$olive;
+    color: variables.$white;
+    border: 1px solid variables.$olive;
+    border-radius: 10px;
+    font-weight: 800;
+    padding: 10px 15px;
+
+    &:hover {
+        background: variables.$olive-dark;
+        color: variables.$white;
+        border-color: variables.$olive-dark;
+    }
+}
+
+.button-secondary {
+    background: variables.$paper;
+    color: variables.$brown;
+    border: 1px solid variables.$line;
+    border-radius: 10px;
+    font-weight: 800;
+    padding: 10px 15px;
+
+    &:hover {
+        background: variables.$sand-100;
+        color: variables.$ink;
+        border-color: variables.$sand-200;
+    }
+}
+
+.button-small {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    border-radius: 0.5rem;
+}
+
+.action-button {
+    border: 1px solid variables.$line;
+    background: transparent;
+    color: variables.$brown;
+    border-radius: 9px;
+    padding: 6px 9px;
+    font-size: 12px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.action-button:hover {
+    background: variables.$sand-100;
+}
+
+.action-button.danger {
+    color: variables.$danger;
+}

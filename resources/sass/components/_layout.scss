@@ -1,2 +1,8 @@
 @use '../variables';
 
+.panel {
+    background: variables.$paper;
+    border: 1px solid variables.$line;
+    border-radius: variables.$radius-lg;
+    box-shadow: variables.$shadow-soft;
+}

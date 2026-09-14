@@ -21,6 +21,16 @@ main {
     min-width: 0;
 }
 
+.primary-text {
+    font-weight: 900;
+}
+
+.secondary-text {
+    color: variables.$muted; 
+    font-size: 13px;
+    margin-top: 2px;
+}
+
 .page-grid {
     min-height: 100vh;
     display: grid;

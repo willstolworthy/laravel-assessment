@@ -1,0 +1,95 @@
+@use '../variables';
+
+.table-wrap {
+    overflow-x: auto;
+    border-top: 1px solid variables.$line;
+}
+
+.table-employee {
+    margin: 0;
+    color: variables.$ink;
+    background-color: transparent;
+    width: 100%;
+}
+
+.table-employee thead th {
+    color: variables.$muted;
+    font-size: 12px;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    font-weight: 900;
+    border-bottom: 1px solid variables.$line;
+    padding: 13px 18px;
+    white-space: nowrap;
+}
+
+.table-employee tbody td {
+    padding: 15px 18px;
+    vertical-align: middle;
+    border-bottom: 1px solid #E9E1D5;
+}
+
+.table-employee tbody tr:last-child td {
+    border-bottom: 0;
+}
+
+.table-employee tbody tr:hover {
+    background: variables.$foggy;
+}
+
+.table-employee th,
+.table-employee td {
+    vertical-align: middle;
+}
+
+.table-employee th:last-child,
+.table-employee td:last-child {
+    text-align: center;
+}
+
+.table-employee .button {
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.table-employee .action-cell {
+    text-align: center;
+}
+
+.table-head {
+    padding: 20px 22px 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.company-cell, .person-cell {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: #E4DDD0;
+  color: var(--brown);
+  font-weight: 900;
+  flex: 0 0 auto;
+}
+
+
+.badge-soft {
+  display: inline-flex;
+  padding: 6px 9px;
+  border-radius: 999px;
+  background: var(--success-soft);
+  color: var(--olive-dark);
+  font-weight: 900;
+  font-size: 12px;
+}
