@@ -1,12 +1,18 @@
 @use '../variables';
 
 .sidebar {
+    position: sticky;
+    top: 0;
+    align-self: start;
+    height: 100vh;
+    overflow-y: auto;
     display: flex;
     flex-direction: column;
     background: variables.$olive-dark;
     color: variables.$risotto;
     padding: 28px 18px;
     min-height: 100vh;
+    max-height: 100vh;
 
     &__branding {
         display: flex;

@@ -65,6 +65,20 @@
     gap: 12px;
 }
 
+.table-head h2 {
+    font-size: 18px;
+    margin: 0;
+    font-weight: 900;
+    letter-spacing: -.02em;
+}
+
+.table-head p {
+    margin: 4px 0 0;
+    color: var(--muted);
+    font-size: 13px;
+}
+
+
 .company-cell, .person-cell {
     display: flex;
     align-items: center;

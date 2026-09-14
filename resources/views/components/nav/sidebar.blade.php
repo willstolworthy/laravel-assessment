@@ -4,7 +4,7 @@
         <span>CRUD</span>
     </div>
     <nav class="sidebar__navigation">
-        <a class="sidebar__navigation-link" href="#">Home</a>
+        <a class="sidebar__navigation-link" href="/home">Home</a>
         <a class="sidebar__navigation-link" href="#">Companies</a>
         <a class="sidebar__navigation-link" href="#">Employees</a>
     </nav>
